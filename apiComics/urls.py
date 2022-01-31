@@ -16,8 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from marvel import views
-from marvel.views import ComicViewSet
+from marvel.views import ComicViewSet, SerieViewSet
+from django.conf.urls import url
 from rest_framework import routers
 
 router = routers.DefaultRouter()
@@ -26,5 +26,6 @@ router.register('comic', ComicViewSet, basename='comic')
 urlpatterns = [
      path('admin/', admin.site.urls),
      path('', include(router.urls)),
-     path('teste', views.teste),
+     url('series', SerieViewSet.as_view()),
 ]
+

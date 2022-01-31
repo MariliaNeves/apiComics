@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076cc0d6-2dc0-44b9-a033-e12798952b33" name="Changes" comment="">
+    <list default="true" id="076cc0d6-2dc0-44b9-a033-e12798952b33" name="Changes" comment="adição da classe Serie">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiComics/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiComics/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/marvel/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/marvel/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel/migrations/0002_auto_20211122_0147.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel/migrations/0003_alter_comic_description.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/marvel/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marvel/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/marvel/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/marvel/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +57,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../estudos-python" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="apiComics" type="Python.DjangoServer" factoryName="Django server">
@@ -107,8 +106,23 @@
       <workItem from="1642508148770" duration="1263000" />
       <workItem from="1642509432584" duration="1293000" />
       <workItem from="1642511947622" duration="894000" />
-      <workItem from="1642512854810" duration="1898000" />
+      <workItem from="1642512854810" duration="2241000" />
+      <workItem from="1642795063718" duration="42000" />
+      <workItem from="1642795132351" duration="2065000" />
+      <workItem from="1643023257237" duration="599000" />
+      <workItem from="1643369284701" duration="797000" />
+      <workItem from="1643370104116" duration="1030000" />
+      <workItem from="1643372021313" duration="1000" />
+      <workItem from="1643372127392" duration="4085000" />
     </task>
+    <task id="LOCAL-00001" summary="adição da classe Serie">
+      <created>1642514776770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642514776770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,16 +141,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adição da classe Serie" />
+    <option name="LAST_COMMIT_MESSAGE" value="adição da classe Serie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/marvel/views.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/marvel/views.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
