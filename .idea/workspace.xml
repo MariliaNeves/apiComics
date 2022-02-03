@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076cc0d6-2dc0-44b9-a033-e12798952b33" name="Changes" comment="adição da classe Serie">
+    <list default="true" id="076cc0d6-2dc0-44b9-a033-e12798952b33" name="Changes" comment="atualização da View">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiComics/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiComics/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marvel/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/marvel/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marvel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/marvel/views.py" afterDir="false" />
@@ -57,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../estudos-python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -114,6 +113,9 @@
       <workItem from="1643370104116" duration="1030000" />
       <workItem from="1643372021313" duration="1000" />
       <workItem from="1643372127392" duration="4085000" />
+      <workItem from="1643630896104" duration="567000" />
+      <workItem from="1643852668464" duration="2000" />
+      <workItem from="1643852722314" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="adição da classe Serie">
       <created>1642514776770</created>
@@ -122,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642514776770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="atualização da View">
+      <created>1643630953839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643630953839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,26 +145,62 @@
             <State />
           </value>
         </entry>
+        <entry key="c66cc7c2-c711-45d7-8c56-f04adbcc6e7f">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c66cc7c2-c711-45d7-8c56-f04adbcc6e7f" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adição da classe Serie" />
-    <option name="LAST_COMMIT_MESSAGE" value="adição da classe Serie" />
+    <MESSAGE value="atualização da View" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualização da View" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/marvel/views.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="6" />
+          <line>45</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/marvel/views.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="7" />
+          <line>59</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/marvel/views.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

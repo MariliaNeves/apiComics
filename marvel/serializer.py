@@ -5,12 +5,11 @@ from marvel.models import Comic, Serie
 class ComicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Comic
-        fields = ['title', 'description', 'modified', 'pageCount']
+        fields = ['id', 'title', 'description', 'modified', 'pageCount']
         # fields = '__all__'
 
 
 class SerieSerializer(serializers.ModelSerializer):
     class Meta:
         model = Serie
-        fields = ['title', 'description', 'modified']
-        # fields = '__all__'
+        fields = ['id', 'title', 'description', 'modified', 'startYear', 'endYear']
